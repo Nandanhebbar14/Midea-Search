@@ -1,16 +1,30 @@
-# React + Vite
+# Midea-Search 🔍
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Midea-Search is a dynamic frontend web application designed to seamlessly fetch and display multimedia content. Built with a focus on performance and robust state management, the application integrates three different external APIs to aggregate photos, videos, and GIFs into a single, unified search experience.
 
-Currently, two official plugins are available:
+## ✨ Features
+*   **Multi-API Integration:** Concurrently fetches diverse media types (Photos, Videos, GIFs) from three distinct external API sources.
+*   **Centralized State Management:** Utilizes Redux to efficiently manage application state, search queries, and media data payloads across components.
+*   **Responsive UI:** Styled for all screen sizes, ensuring a clean and modern user experience whether viewed on desktop or mobile.
+*   **Dynamic Routing:** Implements seamless navigation between the Home and Collection pages.
+*   **User Feedback:** Provides real-time interactive notifications for user actions.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🛠️ Tech Stack
+*   **Framework:** React (Bootstrapped with Vite for optimized building and serving)
+*   **State Management:** Redux
+*   **Routing:** React Router DOM
+*   **Styling:** Tailwind CSS (HTML/CSS)
+*   **Utilities:** React Toastify (for notifications)
 
-## React Compiler
+## 🚀 Getting Started
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+To get a local copy up and running, follow these simple steps.
 
-## Expanding the ESLint configuration
+### Prerequisites
+*   Node.js installed on your machine
+*   NPM or Yarn package manager
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Installation
+1. Clone the repository
+   ```sh
+   git clone [https://github.com/Nandanhebbar14/Midea-Search.git](https://github.com/Nandanhebbar14/Midea-Search.git)
